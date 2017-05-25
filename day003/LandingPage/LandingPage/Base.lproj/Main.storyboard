@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hal.ttf">
+            <string>Hal-Hal</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LandingPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lunar_camping" translatesAutoresizingMaskIntoConstraints="NO" id="Vfg-ec-TfN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunar Campsites" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmR-jm-4nD">
+                                <rect key="frame" x="16" y="28" width="343" height="47"/>
+                                <fontDescription key="fontDescription" name="Hal-Hal" family="Hal" pointSize="43"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book A Site" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMg-RH-HKQ">
+                                <rect key="frame" x="16" y="269" width="343" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="aVU-dn-Jf5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Hal-Hal" family="Hal" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdf-Op-zxQ">
+                                <rect key="frame" x="16" y="310" width="343" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="J8g-HG-8hc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Hal-Hal" family="Hal" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unpowered" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vp-K1-52H">
+                                <rect key="frame" x="16" y="342" width="343" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="lfE-ja-UlZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Hal-Hal" family="Hal" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fdf-Op-zxQ" firstAttribute="top" secondItem="iMg-RH-HKQ" secondAttribute="bottom" constant="8" symbolic="YES" id="1l4-9U-Dix"/>
+                            <constraint firstItem="iMg-RH-HKQ" firstAttribute="trailing" secondItem="pmR-jm-4nD" secondAttribute="trailing" id="2zx-C1-rfe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3vp-K1-52H" secondAttribute="bottom" constant="301" id="4Jv-Iu-n8Z"/>
+                            <constraint firstItem="3vp-K1-52H" firstAttribute="top" secondItem="fdf-Op-zxQ" secondAttribute="bottom" constant="8" symbolic="YES" id="5Mc-9D-uN5"/>
+                            <constraint firstItem="iMg-RH-HKQ" firstAttribute="trailing" secondItem="fdf-Op-zxQ" secondAttribute="trailing" id="CkO-e9-EZa"/>
+                            <constraint firstAttribute="trailing" secondItem="Vfg-ec-TfN" secondAttribute="trailing" id="ItO-i1-TsY"/>
+                            <constraint firstItem="fdf-Op-zxQ" firstAttribute="leading" secondItem="3vp-K1-52H" secondAttribute="leading" id="UN1-Ld-KNt"/>
+                            <constraint firstItem="Vfg-ec-TfN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X5q-4f-XMX"/>
+                            <constraint firstItem="pmR-jm-4nD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Xgu-lL-Q1A"/>
+                            <constraint firstItem="pmR-jm-4nD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xul-xf-vEE"/>
+                            <constraint firstItem="Vfg-ec-TfN" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="b2h-PT-IXa"/>
+                            <constraint firstItem="fdf-Op-zxQ" firstAttribute="trailing" secondItem="3vp-K1-52H" secondAttribute="trailing" id="bzn-3d-3uB"/>
+                            <constraint firstItem="iMg-RH-HKQ" firstAttribute="leading" secondItem="fdf-Op-zxQ" secondAttribute="leading" id="h4L-kW-6pi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pmR-jm-4nD" secondAttribute="bottom" constant="592" id="n8p-gb-C0g"/>
+                            <constraint firstItem="iMg-RH-HKQ" firstAttribute="leading" secondItem="pmR-jm-4nD" secondAttribute="leading" id="oKX-JB-tSg"/>
+                            <constraint firstItem="Vfg-ec-TfN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rkb-Bx-6f6"/>
+                            <constraint firstItem="Vfg-ec-TfN" firstAttribute="centerX" secondItem="pmR-jm-4nD" secondAttribute="centerX" id="zYq-YN-jpU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lunar_camping" width="2383" height="3263"/>
+    </resources>
+</document>

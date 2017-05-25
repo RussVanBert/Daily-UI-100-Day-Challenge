@@ -7,4 +7,7 @@ Create a login screen
 #### Day 2
 Create a credit card payment detail screen
 
-![Day 2](day002/Payment_Details.png "Day 2")
+#### Day 3
+Create a landing page (what is the focus?)
+
+![Day 3](day003/Landing_Page.png "Day 3")
