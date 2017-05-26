@@ -11,3 +11,9 @@ Create a credit card payment detail screen
 Create a landing page (what is the focus?)
 
 ![Day 3](day003/Landing_Page.png "Day 3")
+
+#### Day 4
+Create a calculator
+
+#### Day 5
+Create an application icon
